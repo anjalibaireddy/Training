@@ -1,0 +1,55 @@
+Question:
+
+Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+Answer:
+
+A data type in programming defines the kind of data a variable can store. It specifies the type of value, such as numbers, text, or other structures, that can be assigned to a variable. Understanding data types is crucial because they determine what operations can be performed on the data.
+In JavaScript, data types are broadly categorized into:
+
+1. Primitive Data Types
+
+Primitive data types are the most basic data types. They are immutable, meaning their values cannot be changed after they are created (though the variable holding them can be reassigned).
+Examples of Primitive Data Types in JavaScript:
+
+1.String: Represents text.
+	oExample:
+	let name = "John";
+2.Number: Represents numeric values (both integers and floating-point numbers).
+	oExample:
+	let age = 25;
+	let price = 99.99;
+3.Boolean: Represents logical values, either true or false.
+	oExample:
+	let isLoggedIn = true;
+4.Undefined: A variable that has been declared but not assigned a value.
+	oExample:
+	let result;
+	console.log(result); // undefined
+5.Null: Represents an intentional absence of value.
+	oExample:
+	let data = null;
+
+2. Non-Primitive Data Types
+
+Non-primitive data types are more complex and include objects. They can store multiple values or collections of data. These types are mutable, meaning their contents can be changed after creation.
+Examples of Non-Primitive Data Types in JavaScript:
+
+1.Object: Used to store collections of key-value pairs.
+	oExample:
+	let user = {
+  		name: "Alice",
+  		age: 30,
+  		isAdmin: true
+	};
+2.Array: A special kind of object that stores ordered collections of items.
+	oExample:
+	let fruits = ["Apple", "Banana", "Cherry"];
+3.Function: A block of code designed to perform a particular task (also considered a type of object).
+	oExample:
+	function greet() {
+ 	 console.log("Hello!");
+	}
+4.Date: Used for handling dates and times.
+	oExample:
+	let today = new Date();
+
